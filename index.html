@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer's Registration form</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI',Tahoma,Geneva,Verdan,sans-serif;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(136deg,#05073b,#dc0606cb);
+            padding: 10px;
+        }
+        .box-details{
+            display: flex;
+            justify-items: center;
+            flex-wrap: wrap;
+
+        }
+         h1{
+            color: green;
+        }
+        form{
+            /*background-color: rgb(149, 165, 166);*/
+            background-image: url("farm6.jpeg");
+            padding: 20px;
+            border-radius: 10px;
+            font-family: Tahoma;
+            font-weight: bold;
+            color: white;
+            display: inline-block;
+            justify-content: center;
+            box-shadow: 8px 8px 5px lightcoral;
+        }
+        .box-1, .box-2, .box-3, .box-4, .box-5, .box-6,
+        .box-7, .box-8, .box-9, .box-10, .box-11, .box-12,
+        .box-13, .box14, .box-14, .box-15{
+            flex: 1;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+        </div class="container">
+             <form>
+                <div><h1>Farmer's Registration Form</h1></div>
+                <hr>
+                    <div class="box-details">
+                        <div class="box-1">
+                            <label for="firstname">First Name</label><br>
+                            <input type="text" id="firstname" name="firstname"><br>
+                        </div>
+                        <div  class="box-2">
+                            <label for="middlename">Middle Name</label><br>
+                            <input type="text" id="middlename" name="middlename"><br>
+                        </div>
+                        <div class="box-3">
+                            <label for="surname">SurName</label><br>
+                            <input type="text" id="surname" name="surname"><br>
+                        </div>
+                        <div class="box-4">
+                            <label for="gender">Gender</label><br>
+                            <input type="radio" id="male" name="gender" value="Male">
+                            <label for="male">Male</label><br>
+                            <input type="radio" id="female" name="gender" value="Female">
+                            <label for="female">Female</label><br>
+                        </div>
+                        <div class="box-5">
+                            <label for="birthdate">Date of Birth</label><br>
+                            <input type="date" id="birthdate" name="birthdate"><br>
+                        </div>
+                        <div class="box-6">
+                           <label for="address">Physical Address</label><br>
+                            <input type="text" id="address" name="address"><br> 
+                        </div>
+                        <div class="box-7">
+                           <label for="phone">Phone Number</label><br>
+                            <input type="number" id="phone" name="phone"><br>
+                        </div>
+                        <div class="box-8">
+                            <label for="region">Region</label><br>
+                            <input type="text" id="region" name="region"><br>
+                        </div>
+                         <div class="box-9">
+                            <label for="municipal">Municipal</label><br>
+                            <input type="text" id="municipal" name="municipal"><br>
+                        </div>
+                        <div class="box-10">
+                            <label for="village">Village(optinal)</label><br>
+                            <input type="text" id="village" name="village"><br>
+                        </div>
+                        <div class="box-11">
+                            <label for="ward">Ward(optional)</label><br>
+                            <input type="ward" id="ward" name="ward"><br>
+                        </div>
+                        <div class="box-12">
+                            <label for="farmsize">Farm Size<span>(Meters)</span></label><br>
+                             <input type="number" id="farmsize" name="farmsize"><br> 
+                        </div>
+                        <div class="box-13">
+                            <label for="ownership">Ownership</label><br>
+                            <select id="ownership" name="ownership">
+                            <option value="own">Own</option>
+                            <option value="hired">Hired</option>
+                            </select><br>
+                        </div>
+                        <div class="box-14">
+                          <label for="crops">Types of Crops</label><br>
+                         <input type="text" id="crops" name="crops"><br>
+                        </div>
+                        <div class="box-15">
+                            <button>Register</button><br>
+                        </div>
+                    </div>
+              </form>
+    </div>
+</body>
+</html>
